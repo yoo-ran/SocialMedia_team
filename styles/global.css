@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0; list-style: none; font-family: sans-serif; color: var(--black);}
+:root{
+    --brick:#B4533A;
+    --pink:#f698af;
+    --black:#382f2c;
+    --white: #f9f8f7;
+    --light-brown:#f2e3d0;
+    --brown:#997f68;
+    --dark-brown:#7f5f42;
+}
+
+body, header, footer {
+    display: flex;
+}
+
+body{
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+}
+
+header{
+    padding: 2vh 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img, footer img {
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+    object-position: 0 30%;
+}
+
+header ul {
+    display: flex;
+    column-gap: 8vh;
+}
+
+header nav a:hover{
+    border-bottom:1.5px solid var(--black);
+}
+
+header ul > li {
+    position: relative;
+    
+}
+header ul > li:hover ul{
+    display: flex;
+}
+
+header ul ul {
+    position: absolute;
+    flex-direction: column;
+    row-gap: 1vh;
+    display: none;
+    padding: 2vh 0;
+    z-index: 1;
+}
+
+header a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20vh;
+    padding-bottom: 20vh;
+}
+
+footer{
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--black);
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 0;
+}
+
+h2{
+    color: var(--light-brown);
+}
+
+footer section:first-child{
+    border-bottom: 1px solid var(--brown);
+}
+footer ul.operation, footer ul.contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+footer ul.social{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+}
+
+footer ul.social i{
+    font-size: 26px;
+}
+
+footer ul.social i:hover{
+    color: #997f68;
+}
+
+footer i {
+    padding-right: 2vh;
+    color: var(--light-brown);
+}
+
+footer li, footer a, footer p{
+    color: var(--light-brown);
+}
+
+footer a{
+    text-decoration: none;
+}
+footer section:last-child a:hover{
+    border-bottom: 1px solid var(--light-brown);
+}

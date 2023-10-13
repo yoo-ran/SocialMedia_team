@@ -1,0 +1,93 @@
+main {
+    align-items: center;
+}
+
+.banner {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vh;
+    background-color: var(--light-brown);
+    padding: 16vh 0;
+}
+
+.banner article {
+    width: 50%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 2vh;
+}
+
+.banner p {
+    line-height: 1.5;
+}
+
+.banner img {
+    width: 300px;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8vh;
+    row-gap: 8vh;
+}
+
+.menu figure {
+    width: 30%;
+    cursor: pointer;
+}
+
+.menu div {
+    width: 80%;
+    height: 30vh;
+    overflow: hidden;
+    padding: 7vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    background: linear-gradient(to top, var(--brown), var(--light-brown));
+}
+
+
+.menu img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+}
+
+.menu figcaption{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu a:hover, .menu p:hover{
+    color: var(--brick);
+}
+
+.menu p:hover i{
+    background-color: var(--brick);
+    color: var(--light-brown);
+}
+
+.menu i {
+    padding: 2vh;
+    border-radius: 50%;
+    background-color: var(--light-brown);
+    margin-right: 2vh;
+}
+
+.menu p {
+    font-size: 18px;
+}

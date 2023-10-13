@@ -1,0 +1,89 @@
+main {
+    padding: 20vh 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner article {
+    width: 45%;
+}
+
+.banner h1{
+    font-size: 70px;
+    margin-bottom: 2vh;
+}
+
+.banner span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner p {
+    width: 80%;
+    margin-top: 2vh;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.banner img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px var(--dark-brown);
+}
+
+.banner figure {
+    position: relative;
+}
+
+@keyframes spin {
+    to{
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 34vh;
+}
+
+.menu article{
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+}
+
+.menu article:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.menu img{
+    width: 500px;
+    border-radius: 26px;
+}
+.menu div {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2vh;
+}
+
+h3{
+    font-size: 50px;
+    color: var(--brown);
+}
+
+.menu span{
+    font-size: 20px;
+    color: var(--brick);
+}
+
+.menu p{
+    line-height: 2;
+}

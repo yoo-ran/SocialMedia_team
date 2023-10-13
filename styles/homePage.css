@@ -1,0 +1,136 @@
+main {
+    padding-bottom: 20vh 0;
+    row-gap: 30vh;
+    margin-top: 10vh;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vh;
+}
+
+.banner article {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.banner h1{
+    font-size: 60px;
+    margin-bottom: 2vh;
+}
+
+.banner span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.banner img{
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 10px var(--dark-brown);
+}
+
+.banner figure {
+    position: relative;
+}
+
+.banner figure span:first-of-type{
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    z-index: -1;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    opacity: 0.7;
+    background:radial-gradient(var(--brown), var(--light-brown), transparent);
+    animation: spin 1s infinite alternate;
+}
+
+.banner figure span:last-child{
+    position: absolute;
+    bottom: -20px;
+    right: -60px;
+    z-index: -1;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    opacity: 0.7;
+    background:radial-gradient(var(--brown), var(--light-brown), transparent);
+    animation: spin 1s infinite alternate;
+}
+
+@keyframes spin {
+    to{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 34vh;
+}
+
+.menu article{
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+}
+
+.menu article:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.menu img{
+    width: 500px;
+    border-radius: 26px;
+}
+.menu div {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2vh;
+}
+
+h3{
+    font-size: 50px;
+    color: var(--brown);
+}
+
+.menu span{
+    font-size: 20px;
+    color: var(--brick);
+}
+
+.menu p{
+    line-height: 2;
+}
+
+.menu button {
+    background-color: var(--light-brown);
+    border: none;
+    width: 100px;
+    padding: 2vh 0;
+    border-radius: 10px;
+    color: var(--dark-brown);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.menu button:hover{
+    background-color: var(--brown);
+    color: var(--light-brown);
+}

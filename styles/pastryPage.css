@@ -1,0 +1,111 @@
+main {
+    align-items: center;
+}
+
+.banner {   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vh;
+    background-image: url(../images/Copy\ of\ _DSC3575.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+}
+
+.banner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner article {
+    width: 40%;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 2vh;
+    color: var(--white);
+    text-align: center;
+
+}
+
+.banner p {
+    line-height: 1.5;
+    text-align: center;
+    color: var(--white);
+}
+
+
+.menu {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8vh;
+    row-gap: 8vh;
+}
+
+.menu figure {
+    width: 30%;
+    cursor: pointer;
+}
+
+.menu div {
+    width: 80%;
+    height: 40vh;
+    overflow: hidden;
+    padding: 7vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    background-color: var(--light-brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+}
+
+.menu figcaption{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu a:hover, .menu p:hover{
+    color: var(--brick);
+}
+
+.menu p:hover i{
+    background-color: var(--brick);
+    color: var(--light-brown);
+}
+
+.menu i {
+    padding: 2vh;
+    border-radius: 50%;
+    background-color: var(--light-brown);
+    margin-right: 2vh;
+}
+
+.menu p {
+    font-size: 18px;
+}

@@ -1,0 +1,61 @@
+main .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4vh;
+    padding: 0 6vh;
+}
+
+.blog_text {
+    width: 80%;  
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.blog_text p{
+    line-height: 1.5;
+}
+
+.mask img{
+    mask-image: url(../images/mask1.png);
+    -webkit-mask-image: url(../images/mask1.png);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    width: 100%; 
+}
+
+.bean figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vh;
+}
+
+.bean img {
+    width: 300px;
+}
+
+.bean figcaption {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.bean h3 {
+    font-size: 26px;
+}
+
+.bean p, .bean li {
+    line-height: 1.5;
+}
+
+.bean strong {
+    font-size: 18px;
+}

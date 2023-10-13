@@ -1,0 +1,79 @@
+
+header{
+    background-color: var(--brown);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brown);
+    height: 80vh;
+}
+
+.banner article {
+    width: 45%;
+}
+
+.banner h1{
+    font-size: 70px;
+    margin-bottom: 2vh;
+    color: var(--white);
+}
+
+.banner span {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.banner p {
+    width: 80%;
+    margin-top: 2vh;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.banner img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px var(--dark-brown);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+
+.menu div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 2vh;
+}
+
+.menu i{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid var(--brown);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--brown);
+}
+
+
+.menu span{
+    font-size: 20px;
+    color: var(--brick);
+}
+
+.menu p{
+    line-height: 1.5;
+}

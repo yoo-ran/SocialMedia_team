@@ -1,0 +1,84 @@
+header {
+    background-color: var(--light-brown);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    background-color: var(--light-brown);
+}
+
+.banner h1{
+    font-size: 70px;
+    margin-bottom: 2vh;
+}
+.banner span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    font-size: 20px;
+}
+
+.banner p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+.banner img{
+    width: 400px;
+    opacity: 0.8;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    column-gap: 10vh;
+    margin: 20vh 0;
+}
+
+.menu div {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: 2vh solid var(--light-brown);
+}
+
+.menu p{
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 22px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu img{
+    width: 100%;
+
+}
+
+.menu figure {
+    cursor: pointer;
+}
+
+.menu figure img {
+    transition: all 1s;
+}
+
+.menu figure:hover img{
+    transform: scale(1.1);
+}
+.menu figure:hover p{
+    color: var(--brick);
+    text-decoration:underline;
+}
+
+
+
+

@@ -1,0 +1,114 @@
+main {
+    align-items: center;
+}
+
+.banner {   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vh;
+    background: linear-gradient(to top, var(--light-brown), var(--white));
+    padding: 14vh 0;
+    overflow: hidden;
+}
+
+
+.banner article {
+    width: 40%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 2vh;
+}
+
+.banner p {
+    line-height: 1.5;
+}
+
+.banner figure {
+    position: relative;
+}
+
+.banner img {
+    width: 600px;
+    opacity: 0.1;
+    position: absolute;
+    left: 170px;
+    transform:rotateZ(-50deg)
+}
+
+.banner figure {
+    background-image: url(../images/coffeebanner.png);
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8vh;
+    row-gap: 8vh;
+}
+
+.menu figure {
+    width: 30%;
+    cursor: pointer;
+}
+
+.menu div {
+    width: 80%;
+    height: 30vh;
+    overflow: hidden;
+    padding: 7vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    background: linear-gradient(to top, var(--brown), var(--light-brown));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+}
+
+.menu figcaption{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu a:hover, .menu p:hover{
+    color: var(--brick);
+}
+
+.menu p:hover i{
+    background-color: var(--brick);
+    color: var(--light-brown);
+}
+
+.menu i {
+    padding: 2vh;
+    border-radius: 50%;
+    background-color: var(--light-brown);
+    margin-right: 2vh;
+}
+
+.menu p {
+    font-size: 18px;
+}
