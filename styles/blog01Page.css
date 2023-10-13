@@ -15,6 +15,7 @@ main .title{
 
 h1 {
     font-size: 40px;
+    font-family: Knewave;
 }
 
 .blog_text p{
@@ -29,7 +30,11 @@ h1 {
     -webkit-mask-size: 100%;
     width: 100%; 
 }
-
+.bean {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+}
 .bean figure {
     display: flex;
     justify-content: center;
@@ -45,7 +50,7 @@ h1 {
     width: 40%;
     display: flex;
     flex-direction: column;
-    row-gap: 2vh;
+    row-gap: 1vh;
 }
 
 .bean h3 {
@@ -58,4 +63,12 @@ h1 {
 
 .bean strong {
     font-size: 18px;
+}
+
+.bean figure:nth-child(3) img,
+.bean figure:nth-child(4) img
+{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }

@@ -42,6 +42,15 @@ h1 {
     color: var(--white);
 }
 
+.menuimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuimg img{
+    width: 70%;
+}
 
 .menu {
     width: 80%;

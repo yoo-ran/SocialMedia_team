@@ -46,6 +46,16 @@ h1 {
     height: 400px;
 }
 
+.menuimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuimg img{
+    width: 70%;
+}
+
 .menu {
     width: 80%;
     display: flex;
