@@ -5,6 +5,7 @@ img{
 
 
 main {
+    margin-top: 8em;
     align-items: center;
     font-size: 10px;
 }
@@ -56,7 +57,7 @@ h1 {
 .blog figure img {
     width: 50em;
     border-radius: 10px;
-    text-shadow: 0.2em 0.2em 0.4em var(--);
+    box-shadow: 0.2em 0.2em 0.6em var(--black);
 }
 
 .blog figcaption {
