@@ -46,8 +46,8 @@ h1 {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     column-gap: 4vh;
+    row-gap: 4vh;
 }
 
 .content > a {
